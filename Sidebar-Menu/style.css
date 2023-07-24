@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(21, 21, 21);
+}
+.maincontainer {
+  width: 23vw;
+  height: 80vh;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  margin-top: 1.3rem;
+}
+.logo {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.fa-solid {
+  margin-left: 2rem;
+  color: rgb(196, 192, 192);
+}
+.fa-solid:hover {
+  color: #ffffff;
+}
+.search-logo {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  width: 13rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+.home-logo {
+  display: flex;
+  align-items: center;
+}
+.home-icon {
+  margin-left: 1rem;
+}
+.store-logo {
+  display: flex;
+  align-items: center;
+}
+.store-icon {
+  margin-left: 1rem;
+}
+.channels-logo {
+  display: flex;
+  align-items: center;
+}
+.channels-icon {
+  margin-left: 1rem;
+}
+.categories {
+  display: flex;
+  align-items: center;
+}
+.categories-icon {
+  margin-left: 1rem;
+}
+.download {
+  display: flex;
+  align-items: center;
+}
+.download-icon {
+  margin-left: 1rem;
+}
+.mystuff {
+  display: flex;
+  align-items: center;
+}
+.mystuff-icon {
+  margin-left: 1rem;
+}
+.log-in {
+  height: 20vh;
+  width: 23vw;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+}
+.setting-logo {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.icon {
+  color: rgb(196, 192, 192);
+  cursor: pointer;
+}
+.icon:hover {
+  color: #ffffff;
+}
+.log-in-logo {
+  cursor: pointer;
+}
+
+/* media query */
+@media (max-width: 900px) {
+  .icon {
+    display: none;
+  }
+  .log-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .log-in-logo {
+    margin-left: 0.4rem;
+  }
+}
